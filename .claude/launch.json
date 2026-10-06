@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "find_me", "runtimeExecutable": "python3", "runtimeArgs": ["dev.py"], "port": 8765 }
+  ]
+}
