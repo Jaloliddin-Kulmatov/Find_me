@@ -43,7 +43,7 @@ SITES = [
      "text": "tgme_page_title", "no_redirect": True},
     {"name": "Tumblr", "category": "Social", "url": "https://{}.tumblr.com",
      "check": "https://api.tumblr.com/v2/blog/{}.tumblr.com/avatar", "method": "status",
-     "no_redirect": True, "found_codes": [301, 302]},
+     "no_redirect": True, "found_codes": [301, 302, 401]},
     {"name": "Gravatar", "category": "Social", "url": "https://gravatar.com/{}",
      "check": "https://en.gravatar.com/{}.json", "method": "status"},
     {"name": "Linktree", "category": "Social", "url": "https://linktr.ee/{}", "method": "status"},
@@ -62,10 +62,10 @@ SITES = [
     {"name": "SoundCloud", "category": "Media", "url": "https://soundcloud.com/{}", "method": "status"},
     {"name": "Vimeo", "category": "Media", "url": "https://vimeo.com/{}", "method": "status"},
     {"name": "Flickr", "category": "Media", "url": "https://www.flickr.com/people/{}", "method": "status"},
-    {"name": "Last.fm", "category": "Media", "url": "https://www.last.fm/user/{}", "method": "status"},
+    {"name": "Last.fm", "category": "Media", "url": "https://www.last.fm/user/{}", "method": "manual"},
     {"name": "Letterboxd", "category": "Media", "url": "https://letterboxd.com/{}/", "method": "manual"},
     {"name": "Wattpad", "category": "Media", "url": "https://www.wattpad.com/user/{}", "method": "status"},
-    {"name": "Patreon", "category": "Media", "url": "https://www.patreon.com/{}", "method": "status"},
+    {"name": "Patreon", "category": "Media", "url": "https://www.patreon.com/{}", "method": "manual"},
     {"name": "itch.io", "category": "Media", "url": "https://{}.itch.io", "method": "status"},
 
     # --- Gaming & hobbies ---
