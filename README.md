@@ -1,4 +1,6 @@
-# Find_me **https://find-me-sandy.vercel.app/**
+# Find_me
+
+**Live:** [find-me-sandy.vercel.app](https://find-me-sandy.vercel.app) · **Code:** [github.com/Jaloliddin-Kulmatov/Find_me](https://github.com/Jaloliddin-Kulmatov/Find_me)
 
 Find where a username exists across 40+ websites: GitHub, YouTube, Telegram, Steam, Bluesky, Mastodon and more.
 
